@@ -14,19 +14,11 @@ export default function BoxScreen() {
   const [cssVal, setCssVal] = useState("");
   const [copied, setCopied] = useState(false);
 
-  let copyText = document.getElementsByClassName("cssVal");
-  console.log(copyText.value);
-  // copyText.select();
-  // navigator.clipboard.writeText(copyText.value);
   useEffect(() => {
     setCssVal(
       `boxShadow: ${mousePoint}px ${vOffSet}px ${blur}px ${spread}px ${color};`
     );
   });
-
-  // const copyToClipBoardHandler = () => {
-  //   console.log(cssVal);
-  // };
 
   const copyToClipBoardHandler = () => {
     setCopied(true);

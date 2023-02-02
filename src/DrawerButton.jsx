@@ -2,9 +2,6 @@ import React, { useState } from "react";
 
 export default function DrawerButton({ mousePoint, setMousePoint }) {
   const [isPulling, setIsPulling] = useState(false);
-  // let screenLog = document.getElementsByClassName("screen-log");
-  // document.addEventListener("", logKey);
-
   function mouseDown(e) {
     setIsPulling(true);
   }

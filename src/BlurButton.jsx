@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 export default function BlurButton({ blur, setBlur }) {
   const [isPulling, setIsPulling] = useState(false);
-  // let screenLog = document.getElementsByClassName("screen-log");
-  // document.addEventListener("", logKey);
 
   function mouseDown(e) {
     setIsPulling(true);
