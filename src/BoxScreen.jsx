@@ -66,6 +66,9 @@ export default function BoxScreen() {
         <p>Spread : {spread}</p>
         <SpreadButton spread={spread} setSpread={setSpread} />
       </div>
+      <div className="cssVal">
+        boxShadow: {mousePoint}px {vOffSet}px {blur}px {spread}px {color}
+      </div>
     </>
   );
 }

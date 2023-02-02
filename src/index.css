@@ -99,3 +99,9 @@ button:focus-visible {
   cursor: pointer;
   border: 1px solid #1a1a1a;
 }
+.cssVal {
+  margin-top: 10px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
