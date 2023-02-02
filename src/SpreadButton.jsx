@@ -12,7 +12,6 @@ export default function SpreadButton({ spread, setSpread }) {
 
       // let text = x - 1325;
       setSpread(x);
-      console.log(spread);
     } else if (spread < 0) {
       setSpread(0);
     } else if (spread > 200) {

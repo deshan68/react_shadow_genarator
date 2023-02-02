@@ -10,7 +10,6 @@ export default function BlurButton({ blur, setBlur }) {
     if (isPulling) {
       const x = e.pageX - e.currentTarget.offsetLeft;
       setBlur(x);
-      console.log(blur);
     } else if (blur < 0) {
       setBlur(0);
     } else if (blur > 200) {

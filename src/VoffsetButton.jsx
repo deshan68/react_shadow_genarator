@@ -12,7 +12,6 @@ export default function VoffsetButton({ vOffSet, setVOffSet }) {
 
       // let text = x - 1325;
       setVOffSet(x);
-      console.log(vOffSet);
     } else if (vOffSet < 0) {
       setVOffSet(0);
     } else if (vOffSet > 200) {

@@ -78,7 +78,7 @@ export default function BoxScreen() {
       <div className="cssVal">
         boxShadow: {mousePoint}px {vOffSet}px {blur}px {spread}px {color};
       </div>
-      {copied ? <p style={{ color: "red" }}>Copied!</p> : null}
+      {copied ? <p style={{ color: "red" }}>Copied!</p> : <p>'</p>}
     </>
   );
 }
