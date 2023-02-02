@@ -32,9 +32,7 @@ export default function VoffsetButton({ vOffSet, setVOffSet }) {
         onMouseDown={mouseDown}
         onMouseUp={mouseUp}
         style={{ right: -vOffSet + 12.5 }}
-      >
-        {vOffSet}
-      </div>
+      ></div>
     </div>
   );
 }

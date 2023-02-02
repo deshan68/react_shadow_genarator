@@ -32,9 +32,7 @@ export default function DrawerButton({ mousePoint, setMousePoint }) {
         onMouseDown={mouseDown}
         onMouseUp={mouseUp}
         style={{ right: -mousePoint + 12.5 }}
-      >
-        {mousePoint}
-      </div>
+      ></div>
     </div>
   );
 }

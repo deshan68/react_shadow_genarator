@@ -32,9 +32,7 @@ export default function SpreadButton({ spread, setSpread }) {
         onMouseDown={mouseDown}
         onMouseUp={mouseUp}
         style={{ right: -spread + 12.5 }}
-      >
-        {spread}
-      </div>
+      ></div>
     </div>
   );
 }

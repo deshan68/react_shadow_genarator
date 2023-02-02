@@ -30,9 +30,7 @@ export default function BlurButton({ blur, setBlur }) {
         onMouseDown={mouseDown}
         onMouseUp={mouseUp}
         style={{ right: -blur + 12.5 }}
-      >
-        {blur}
-      </div>
+      ></div>
     </div>
   );
 }
